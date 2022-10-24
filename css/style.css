@@ -522,6 +522,12 @@ flex-direction: column;
     color: var(--color3);
     font-size: 1.2em;
 }
+.work-con1 a:hover{
+    transition: color 0.3s ease-in-out;
+    text-decoration: none;
+    color: var(--color1);
+    font-size: 1.2em;
+}
 
 .work1{
     width: 70%;
@@ -582,6 +588,12 @@ flex-direction: column;
 .work-con2 a{
     text-decoration: none;
     color: var(--color3);
+    font-size: 1.2em;
+}
+.work-con2 a:hover{
+    transition: color 0.3s ease-in-out;
+    text-decoration: none;
+    color: var(--color1);
     font-size: 1.2em;
 }
 
@@ -963,6 +975,7 @@ flex-direction: column;
     list-style: none;
     color: var(--color3);
     gap: 2em;
+
 }
 input[type='radio']:after {
     width: 15px;
@@ -975,6 +988,7 @@ input[type='radio']:after {
     content: '';
     display: inline-block;
     visibility: visible;
+    cursor: pointer;
 }
 input[type='radio']:checked:after {
     width: 15px;
