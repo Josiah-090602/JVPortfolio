@@ -881,7 +881,7 @@ flex-direction: column;
     padding: 20px;
     display: flex;
     flex-direction: column;
-    width: 25%;
+    width: 40%;
     align-items: center;
     border-top: 1px solid var(--color1);
     border-right: 1px solid var(--color1);
@@ -890,7 +890,7 @@ flex-direction: column;
 }
 .left img{
     width: 40%;
-    border-radius: 100px;
+    border-radius: 1500px;
 }
 .add-info{
     display: flex;
@@ -942,14 +942,14 @@ flex-direction: column;
     color: var(--color3);
     font-size: 1.2rem;
     width: 100%;
-    padding: 10px;
+    padding: 0%;
     gap: 15px;
     justify-content: center;
 }
 .right{
     display: flex;
     flex-direction: column;
-    width: 75%;
+    width: 60%;
     border-top: 1px solid var(--color1);
     padding: 20px;
 }
@@ -1222,6 +1222,30 @@ input[type='radio']:checked:after {
     .price3 h3{
         font-size: 1.2em;
     }
+    /*Contact Revision*/
+    .left{
+        width: 40%;
+    }
+    .left img{
+        width: 70%;
+        border-radius: 150px;
+    }
+    .add-info{
+        gap: 3em;
+    }
+    .email{
+        font-size: 1em;
+        padding: 0%;
+    }
+    .phone{
+        font-size: 1em;
+        padding: 0%;
+    }
+    .location{
+        font-size: 1em;
+        padding: 0%;
+    }
+
     
 
 }
