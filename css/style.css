@@ -13,6 +13,13 @@
 html {
     scroll-behavior: smooth;
 }
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
 .content{
     background-color: var(--color2);
     width: 100%;
@@ -35,7 +42,7 @@ html {
 }
 .nav{  
     display: flex;
-   
+        
 }
 .nav-btn {
     display: flex;
@@ -874,7 +881,7 @@ flex-direction: column;
 }
 .contact{
     display: flex;
-    height: 85vh;
+    height: 90vh;
     width: 100%;
 }
 .left{
@@ -985,7 +992,7 @@ flex-direction: column;
     color: var(--color1);
 }
 .input1 input{
-    height: 50%;
+    height: 100px;
     border: none;
     border-radius: 10px;
     padding-left: 2em;
@@ -1003,7 +1010,7 @@ flex-direction: column;
     color: var(--color1);
 }
 .input2 input{
-    height: 50%;
+    height: 100px;
     border: none;
     border-radius: 10px;
     padding-left: 2em;
@@ -1234,15 +1241,15 @@ input[type='radio']:checked:after {
         gap: 3em;
     }
     .email{
-        font-size: 1em;
+        font-size: .9em;
         padding: 0%;
     }
     .phone{
-        font-size: 1em;
+        font-size: .9em;
         padding: 0%;
     }
     .location{
-        font-size: 1em;
+        font-size: .9em;
         padding: 0%;
     }
 
@@ -1251,26 +1258,26 @@ input[type='radio']:checked:after {
 }
 @media (min-width: 325px) and (max-width: 849px) {
     .hero span{
-        font-size: 1.7em;    
+        font-size: 1em;    
     }   
     .introduction{
         font-size: 1em;
     }
     .introduction::after{
-        font-size: 3rem;
+        font-size: 3.5rem;
     }
     .main-btn {
         flex-direction: column-reverse;
         gap: 20px;
     }
     .main-btn .dl-cv {
-        font-size: 1rem;
+        font-size: .8rem;
     }
     .hire-me {
         width: 30%;
     }
     .hire-me a span {
-        font-size: 1.5rem;
+        font-size: .8rem;
         padding-right: 5px;
     }
     .main-nav img {
@@ -1282,6 +1289,136 @@ input[type='radio']:checked:after {
     .nav {
         display: none;
     }
+    .main-nav img {
+        width: 20%;
+    }
+    .menu-cta {
+        display: initial;
+    }
+    /*About*/
+   
+    .profile-section {
+        display: none;
+    }
+    .about-section{
+        width: 100%;
+        text-align: center;
+
+    }
+    .about-section h1{
+        font-size: 2rem;
+    }
+    .about-section h2{
+        font-size: 1.8rem;
+        line-height: 50px;
+    }
+    .about-section p{
+        font-size: 1.2rem;
+        line-height: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .now1 p{
+        font-size: 1em
+    }
+    .con1 li {
+        font-size: 1em;
+        padding: 10%;
+    }
+    
+    
+    .con2 li {
+        font-size: 1em;
+        padding: 10%;
+    }
+    .now-title h2{
+        text-align: center;
+    }
+    .con1{
+        font-size: 0.9em;
+    }
+    .con2{
+        font-size: 0.9em;
+    }
+    /*Portfolio Try*/
+    .portfolio{
+        height: 310%;
+    }
+    .portfolio-sec{
+        height: 80%;
+    }
+    .gen-con1{
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+    }
+
+    .work-con1{
+        width: 100%;
+        justify-content: center;
+        height: 50%;    
+    }
+    .work-con2{
+        width: 100%;
+        justify-content: center;
+        height: 50%;
+    }
+    .pricing-sec{
+        height:20%;
+    }
+    .price{
+        gap: 10px;
+        padding: 20px 0px;
+        justify-content: center;
+        align-items: center;
+    }
+    .price1{
+        width: 50%;
+        height: 80%;
+    }
+    .price1 h3{
+        font-size: 1.2em;
+    }
+    .price2{
+        width: 50%;
+        height: 80%;
+    }
+    .price2 h3{
+        font-size: 1.2em;
+    }
+    .price3{
+        width: 50%;
+        height: 80%;
+    }
+    .price3 h3{
+        font-size: 1.2em;
+    }
+    /*Contact Revision*/
+    .left{
+        width: 40%;
+    }
+    .left img{
+        width: 70%;
+        border-radius: 150px;
+    }
+    .add-info{
+        gap: 3em;
+    }
+    .email{
+        font-size: .9em;
+        padding: 0%;
+    }
+    .phone{
+        font-size: .9em;
+        padding: 0%;
+    }
+    .location{
+        font-size: .9em;
+        padding: 0%;
+    }
+    
+
 }
 
 
