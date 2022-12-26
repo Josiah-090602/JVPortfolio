@@ -10,13 +10,11 @@
     --color2:#202020;
     --color3: #F5F5F5;
 }
-html {
-    scroll-behavior: smooth;
-}
 html,body{
     height: 100%;
     width: 100%;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 
@@ -206,8 +204,6 @@ html,body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-
-
 }
 
 .about-section{
