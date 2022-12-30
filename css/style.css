@@ -597,7 +597,6 @@ flex-direction: column;
 }
 .work1 img:hover{
     transform: scale(1.5);
-    color: var(--color1);
 }
 
 .work2{
@@ -1339,7 +1338,16 @@ input[type='radio']:checked:after {
     .con2{
         font-size: 0.9em;
     }
-    /*Portfolio Try*/
+    /*Portfolio Query*/
+    .portfolio h1{
+        font-size: 2rem;
+    }
+    .works-title{
+        justify-content: center;
+    }
+    .works-title h2{
+        font-size: 1.5rem;
+    }
     .portfolio{
         height: 310%;
     }
@@ -1355,13 +1363,65 @@ input[type='radio']:checked:after {
 
     .work-con1{
         width: 100%;
-        justify-content: center;
-        height: 50%;    
+        justify-content: center;    
     }
+    .work-con1 p{
+        font-size: 1rem;
+    }
+    .work1{
+        width: 100%;
+        height: 50%;
+    }
+    .work1 img{
+        height: 100%;
+    }
+    .work2{
+        width: 100%;
+        height: 50%;
+    }
+    .work2 img{
+        height: 100%;
+        border-radius: 10px;
+    }
+    .work3{
+        width: 100%;
+        height: 50%;
+    }
+    .work3 img{
+        height: 100%;
+        border-radius: 10px;
+    }
+
     .work-con2{
         width: 100%;
         justify-content: center;
+    }
+    .work-con2 p{
+        font-size: 1rem;
+    }
+    .work4{
+        width: 100%;
         height: 50%;
+    }
+    .work4 img{
+        height: 100%;
+        border-radius: 10px;
+    }
+    .work5{
+        width: 100%;
+        height: 50%;
+    }
+    .work5 img{
+        height: 100%;
+        border-radius: 10px;
+    }
+    .work6{
+        width: 100%;
+        height: 50%;
+    }
+    .work6 img{
+        height: 100%;
+        border-radius: 10px;
     }
     .pricing-sec{
         height:20%;
@@ -1371,27 +1431,68 @@ input[type='radio']:checked:after {
         padding: 20px 0px;
         justify-content: center;
         align-items: center;
+        flex-direction: column;
+    }
+    .pricing-title h2{
+        font-size: 2rem;
     }
     .price1{
-        width: 50%;
+        width: 100%;
         height: 80%;
     }
     .price1 h3{
         font-size: 1.2em;
     }
+    .price1 .money{
+        font-size: 1.2em;
+    }
+    .price1 .details{
+        font-size: 1em;
+    }
+    .price1 .text{
+        font-size: 1em;
+    }
+
     .price2{
-        width: 50%;
+        width: 100%;
         height: 80%;
     }
     .price2 h3{
         font-size: 1.2em;
     }
+    .price2 h3{
+        font-size: 1.2em;
+    }
+    .price2 .money{
+        font-size: 1.2em;
+    }
+    .price2 .details{
+        font-size: 1em;
+    }
+    .price2 .text{
+        font-size: 1em;
+    }
     .price3{
-        width: 50%;
+        width: 100%;
         height: 80%;
     }
     .price3 h3{
         font-size: 1.2em;
+    }
+    .price2 h3{
+        font-size: 1.2em;
+    }
+    .price3 h3{
+        font-size: 1.2em;
+    }
+    .price3 .money{
+        font-size: 1.2em;
+    }
+    .price3 .details{
+        font-size: 1em;
+    }
+    .price3 .text{
+        font-size: 1em;
     }
     /*Contact Revision*/
     .left{
