@@ -362,7 +362,6 @@ html,body{
     height: 100%;
 }
 .left-sec{
-
     width: 50%;
     height: 100%; 
     padding: 20px 0;
@@ -380,8 +379,8 @@ html,body{
     flex-direction: column;
     justify-content: center;
     width: 100%;
-    height: 90%;
-    gap: 20%;  
+    height: 100%;
+    gap: 50px;
     padding: 20px; 
 }
 .educ1{
@@ -1247,6 +1246,9 @@ input[type='radio']:checked:after {
     .location{
         font-size: .9em;
         padding: 0%;
+    }
+    .send{
+        font-size: .9rem;
     }
 
     
