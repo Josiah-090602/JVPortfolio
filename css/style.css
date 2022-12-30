@@ -1156,6 +1156,7 @@ input[type='radio']:checked:after {
         display: initial;
     }
     /*About*/
+
     .profile-section{
         display: none;
     }
@@ -1292,7 +1293,9 @@ input[type='radio']:checked:after {
         display: initial;
     }
     /*About*/
-   
+    .title1{
+        padding: 0;
+    }
     .profile-section {
         display: none;
     }
@@ -1413,7 +1416,105 @@ input[type='radio']:checked:after {
         font-size: .9em;
         padding: 0%;
     }
-    
+    /*Resume Query*/
+
+    .title2 h1{
+        font-size: 2rem;
+    }
+    .main-con1{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .left-sec{
+        width: 100%;
+    }
+    .left-sec h2{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .left-sec h3{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .left-sec h4{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .left-sec p{
+        font-size: 1rem;
+        text-align: center;
+    }
+    .educ1{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .educ2{
+        width: 100%;
+    }
+    .educ-con{
+        width: 100%;
+        gap: 40px;
+    }
+    .right-sec{
+        width: 100%;
+        padding: 0;
+    }
+    .right-sec h2{
+        padding: 0;
+        font-size: 2rem;
+        border:none;
+        border-bottom: 1px solid var(--color1);
+    }
+    .skill-con{
+        border-style:none;
+    }
+    .skill-wrap p{
+        font-size: 1em;
+    }
+    .s-list1{
+        justify-content: center;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .s-list1 img{
+        height: 60px;
+    }
+    .s-list2{
+        justify-content: center;
+        flex-direction: column
+        ;
+        gap: 5px;
+    }
+    .s-list2 img{
+        height: 60px;
+    }
+    .s-list3{
+        justify-content: center;
+        flex-direction: column;
+        gap: 5px;
+        text-align: center;
+    }
+    .s-list3 img{
+        height: 60px;
+    }
+    .s-list4{
+        justify-content: center;
+        flex-direction: column;
+        gap: 5px;
+        text-align: center;
+    }
+    .s-list4 img{
+        height: 60px;
+    }
+    .s-list5{
+        justify-content: center;
+        flex-direction: column;
+        gap: 5px;
+        text-align: center;
+    }
+    .s-list5 img{
+        height: 60px;
+    }
 
 }
 
